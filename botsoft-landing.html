@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Soft - Proyecto de Eliuth Seguil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            padding: 50px;
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h1 {
+            color: #0ea5e9;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        .description {
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        
+        .info-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-top: 30px;
+        }
+        
+        .info-item {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .info-item strong {
+            color: #0ea5e9;
+            display: inline-block;
+            min-width: 80px;
+        }
+        
+        .email {
+            color: #0ea5e9;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .email:hover {
+            color: #2563eb;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #0ea5e9;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin: 5px;
+        }
+        
+        .tech-tags {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bot Soft</h1>
+        <p class="subtitle">Proyecto personal de Eliuth Seguil</p>
+        
+        <p class="description">
+            Este es un proyecto experimental de desarrollo de agentes conversacionales (chatbots) 
+            creado por <strong>Eliuth Seguil Machco</strong> con fines educativos y de pruebas técnicas.
+        </p>
+        
+        <p class="description">
+            Este sitio se utiliza para demostrar integraciones con la API de WhatsApp Cloud 
+            y otros servicios de inteligencia artificial.
+        </p>
+        
+        <div class="tech-tags">
+            <span class="badge">WhatsApp API</span>
+            <span class="badge">Inteligencia Artificial</span>
+            <span class="badge">Chatbots</span>
+        </div>
+        
+        <div class="info-section">
+            <div class="info-item">
+                <strong>📧 Contacto:</strong> 
+                <a href="mailto:ovenfo@gmail.com" class="email">ovenfo@gmail.com</a>
+            </div>
+            <div class="info-item">
+                <strong>📍 Ubicación:</strong> Lima, Perú
+            </div>
+            <div class="info-item">
+                <strong>🎯 Propósito:</strong> Educativo y pruebas técnicas
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 Bot Soft - Desarrollado por Eliuth Seguil Machco</p>
+        </div>
+    </div>
+</body>
+</html>
